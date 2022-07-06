@@ -188,6 +188,11 @@ h1 {
     margin: 100px 0;
 }
 
+.third-section-p {
+    color: rgb(94, 94, 94);
+    padding-bottom: 15px;
+}
+
 /* FORTH SECTION SETTING */
 
 .forth-section {
@@ -223,7 +228,6 @@ h1 {
     padding: 10px 30px;
     height: 36px;
     width: 170px;
-    margin-right: -5px;
     border: 0;
     border-radius: 5px 0 0 5px;
     background-color: rgb(192, 189, 189);
