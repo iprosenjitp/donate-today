@@ -74,6 +74,7 @@ h1 {
     width: 20%;
     height: 100px;
     margin: 10px;
+    border: 2px solid red;
     border-radius: 5px;
 }
 
@@ -119,6 +120,17 @@ h1 {
 
 /* SECOND SECTION SETTING */
 
+#second-section-h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#second-section-p {
+    text-align: center;
+    padding: 0 40px 20px;
+    color: rgb(94, 94, 94);
+}
+
 .second-section {
     margin: 100px 200px;
 }
@@ -129,6 +141,10 @@ h1 {
     margin: 10px;
     padding: 50px 15px;
     border-radius: 5px;
+}
+
+.second-section-p2 {
+    color: rgb(94, 94, 94);
 }
 
 #bg-color-food {
@@ -173,6 +189,45 @@ h1 {
 
 .forth-section {
     margin: 100px 300px;
+}
+
+#forth-section-h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#forth-section-p {
+    color: rgb(94, 94, 94);
+    padding: 0 0 30px 0;
+}
+
+.forth-section-input-bg {
+    background-color: bisque;
+    width: 100%;
+    height: 150px;
+}
+
+.forth-section-input-position {
+    padding: 65px 200px;
+}
+
+#forth-section-input-box {
+    padding-left: 10px;
+    height: 36px;
+    width: 170px;
+    margin-right: -5px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(192, 189, 189);
+}
+
+#forth-section-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 0 5px 5px 0;
 }
 
 /* FOOTER */
