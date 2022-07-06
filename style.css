@@ -26,6 +26,7 @@ h1 {
 
 #header-h1-tag {
     padding: 200px 300px 0px 300px;
+    margin: 0px;
 }
 
 #header-p-tag {
@@ -103,11 +104,13 @@ h1 {
     padding-top: 8px;
 }
 
-#amount-input {
+.amount-input {
     height: 40px;
     width: 100%;
     text-align: center;
     font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
 }
 
 #first-section-input {
@@ -204,15 +207,20 @@ h1 {
 .forth-section-input-bg {
     background-color: bisque;
     width: 100%;
-    height: 150px;
+    height: 190px;
 }
 
 .forth-section-input-position {
+    display: flex;
     padding: 65px 200px;
 }
 
+.forth-section-input-position a {
+    text-align: center;
+}
+
 #forth-section-input-box {
-    padding-left: 10px;
+    padding: 10px 30px;
     height: 36px;
     width: 170px;
     margin-right: -5px;
@@ -224,7 +232,7 @@ h1 {
 #forth-section-button {
     text-decoration: none;
     background-image: linear-gradient(tomato, red);
-    padding: 10px 30px;
+    padding: 16px 30px;
     color: white;
     font-weight: 700;
     border-radius: 0 5px 5px 0;
@@ -241,4 +249,10 @@ footer {
 .text-align-center {
     padding-top: 10px;
     text-align: center;
+}
+
+#footer-h1 {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    color: brown;
 }
