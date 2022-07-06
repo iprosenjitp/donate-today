@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+.header-bg {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+    opacity: 0.7;
+}
+
+.header-text {
+    color: white;
+}
+
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.margin-setting {
+    margin: 10px 100px;
+}
+
+.flexible-display {
+    display: flex;
+}
+
+.exceptional-amount-div {
+    border: 2px;
+    border-color: red;
+}
+
+/* FIRST SECTION SETTING */
+
+.first-section {
+    margin: 100px 300px;
+}
+
+.amount-div {
+    background-color: rgb(240, 228, 228);
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* SECOND SECTION SETTING */
+
+.second-section {
+    margin: 100px 200px;
+}
+
+.second-section-div {
+    width: 33.33%;
+    height: 200px;
+    margin: 10px;
+    padding: 50px 15px;
+    border-radius: 5px;
+}
+
+#bg-color-food {
+    background-color: antiquewhite;
+}
+
+#bg-color-shelter {
+    background-color: aquamarine;
+}
+
+#bg-color-education {
+    background-color: rgb(209, 200, 216);
+}
+
+/* THIRD SECTION SETTING */
+
+.third-section {
+    margin: 100px 200px;
+}
