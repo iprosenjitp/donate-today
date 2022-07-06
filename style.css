@@ -83,3 +83,37 @@ body {
 .third-section {
     margin: 100px 200px;
 }
+
+.third-section-div {
+    width: 50%;
+    height: 200px;
+    margin: 10px;
+    padding: 10px 10px 0 0;
+}
+
+#third-section-text {
+    padding: 40px 0;
+}
+
+.third-section-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.third-section-div-margin {
+    margin: 100px 0;
+}
+
+/* FORTH SECTION SETTING */
+
+.forth-section {
+    margin: 100px 300px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 150px;
+    color: white;
+}
